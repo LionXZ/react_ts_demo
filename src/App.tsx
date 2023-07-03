@@ -1,6 +1,7 @@
 import React, { useState, useReducer, useContext } from "react";
 import "./App.css";
 import GlobalContext, { reducer, initData } from "./GlobalContext";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 // import One from "./views/01";
 // import TWO from "./views/02";
 import A from "./views/04.tsx";
