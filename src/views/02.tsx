@@ -43,6 +43,14 @@ export default class TWO extends PureComponent {
     }
   }
 
+  shouldComponentUpdate(
+    nextProps: Readonly<{}>,
+    nextState: Readonly<{}>,
+    nextContext: any
+  ): boolean {
+    return true;
+  }
+
   componentWillUnmount() {}
 
   render() {
